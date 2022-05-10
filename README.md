@@ -1,6 +1,8 @@
 ### This is the learning project for springboot.
 
 #### Fist step: Restful API design
+##### query parameters vs path parameters vs header parameters vs body parameters
+![](/images/Screen%20Shot%202022-05-10%20at%2011.14.21%20AM.png)
 ##### Authentication:
 ##### 1. Create a new user account.
 POST /register
