@@ -82,6 +82,19 @@ POST /orders
 ##### 4. cancel an order
 DELETE /orders/{id}
 
+#### What is Spring?
+##### Manage the singleton objects.
+##### Manage the dependency injection.
+##### Manage the lifecycle of the objects.
+##### manage the relationship between the objects.
+![](/images/Screen%20Shot%202022-05-10%20at%203.22.40%20PM.png)
+##### database
+![](images/Screen%20Shot%202022-05-10%20at%203.28.04%20PM.png)
+##### RESTful API(Spring MVC)
+##### 
+
+
+
 
 
 
