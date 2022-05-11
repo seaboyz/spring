@@ -59,6 +59,10 @@ Spring bean factory is a singleton object.
 ![](/images/Screen%20Shot%202022-05-11%20at%208.37.29%20AM.png)
 ##### Setter is used to inject the dependency
 ![](/images/Screen%20Shot%202022-05-11%20at%208.43.57%20AM.png)
+
+##### Inner bean
+![](images/Screen%20Shot%202022-05-11%20at%206.04.58%20PM.png)
+
 ![]()
 ![]()
 ![]()

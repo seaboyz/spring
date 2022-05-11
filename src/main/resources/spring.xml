@@ -6,24 +6,24 @@
 
 
     <bean id="triangle" class="com.webdev.spring.Triangle">
-        <property name="pointA" ref="zeroPoint"/>
-        <property name="pointB" ref="point2"/>
-        <property name="pointC" ref="point3"/>
-    </bean>
-
-    <bean id="zeroPoint" class="com.webdev.spring.Point">
-        <property name="x" value="0" />
-        <property name="y" value="0" />
-    </bean>
-
-    <bean id="point2" class="com.webdev.spring.Point">
-        <property name="x" value="-20" />
-        <property name="y" value="-10" />
-    </bean>
-
-    <bean id="point3" class="com.webdev.spring.Point">
-        <property name="x" value="20" />
-        <property name="y" value="-10" />
+        <property name="pointA">
+            <bean id="pointA" class="com.webdev.spring.Point">
+                <property name="x" value="0" />
+                <property name="y" value="0" />
+            </bean>
+        </property>
+        <property name="pointB">
+            <bean id="pointB" class="com.webdev.spring.Point">
+                <property name="x" value="-20" />
+                <property name="y" value="10" />
+            </bean>
+        </property>
+        <property name="pointC">
+            <bean id="pointB" class="com.webdev.spring.Point">
+                <property name="x" value="20" />
+                <property name="y" value="10" />
+            </bean>
+        </property>
     </bean>
 
 </beans>
