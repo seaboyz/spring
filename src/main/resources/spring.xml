@@ -4,8 +4,8 @@
 
     <!-- bean definitions here -->
     <bean id="triangle" class="com.webdev.springrestapi.Triangle">
-        <constructor-arg value="Equilateral" />
-        <constructor-arg value="20" />
+        <constructor-arg index="0" value="Equilateral" />
+        <constructor-arg index="1" value="20" />
     </bean>
 
     <bean id="employee" class="com.webdev.springrestapi.Employee">
