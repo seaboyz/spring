@@ -108,11 +108,14 @@ Spring bean factory is a singleton object.
 ![](/images/Screen%20Shot%202022-05-10%20at%206.49.03%20PM.png)
 
 * with spring
-configuration file: spring.xml
+  *  configuration file: spring.xml
 ![](/images/Screen%20Shot%202022-05-10%20at%207.29.11%20PM.png)
-get bean from bean factory:
+  * get bean using `context.getBean("beanName")`
 ![](/images/Screen%20Shot%202022-05-10%20at%207.31.16%20PM.png)
-
+  * get bean using `BeanFactory.getBean("beanName")`
+![](images/Screen%20Shot%202022-05-11%20at%204.13.09%20AM.png)
+![](images/Screen%20Shot%202022-05-10%20at%207.29.11%20PM.png)
+![](images/Screen%20Shot%202022-05-10%20at%207.31.16%20PM.png)
 
 
 

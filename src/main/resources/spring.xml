@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
     <bean id="triangle" class="com.webdev.springrestapi.Triangle" />
+
+    <bean id="employee" class="com.webdev.springrestapi.Employee">
+        <property name="name" value="John" />
+        <property name="email" value="john@example.com" />
+    </bean>
+    <alias name="employee" alias="developer" />
 
 </beans>
