@@ -85,13 +85,57 @@ POST /orders
 DELETE /orders/{id}
 
 #### What is Spring?
+
 ##### Manage the singleton objects.
+
 ##### Manage the dependency injection.
+
 ##### Manage the lifecycle of the objects.
+
 ##### manage the relationship between the objects.
-![](/images/Screen%20Shot%202022-05-10%20at%203.22.40%20PM.png)
+
+##### Srping container
+![](/images/Screen%20Shot%202022-05-10%20at%206.38.40%20PM.png)
+
+##### Factory bean
+![](./images/Screen%20Shot%202022-05-10%20at%206.41.52%20PM.png)
+Spring bean factory is a singleton object.
+![](/images/Screen%20Shot%202022-05-10%20at%206.42.45%20PM.png)
+
+##### Bean definition
+* no spring 
+![](/images/Screen%20Shot%202022-05-10%20at%206.48.46%20PM.png)
+![](/images/Screen%20Shot%202022-05-10%20at%206.49.03%20PM.png)
+
+* with spring
+configuration file: spring.xml
+![](/images/Screen%20Shot%202022-05-10%20at%207.29.11%20PM.png)
+get bean from bean factory:
+![](/images/Screen%20Shot%202022-05-10%20at%207.31.16%20PM.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##### database
 ![](images/Screen%20Shot%202022-05-10%20at%203.28.04%20PM.png)
+
+
+
 ##### RESTful API(Spring MVC)
 ##### 
 
