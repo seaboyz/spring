@@ -30,7 +30,7 @@ Spring bean factory is a singleton object.
   *  configuration file: spring.xml
 ![](/images/Screen%20Shot%202022-05-10%20at%207.29.11%20PM.png)
 * #### properties
-* #### setter dependency injection
+* #### setter dependency injection(setter is spring used to inject the dependency)
   * we inject `String type = "Equilateral"` into the bean Triangle.
   ![](images/Screen%20Shot%202022-05-11%20at%205.15.45%20AM.png)
   * under the hood, spring user setter of the bean Triangle to set the type.
@@ -54,6 +54,18 @@ Spring bean factory is a singleton object.
 ![](images/Screen%20Shot%202022-05-11%20at%204.13.09%20AM.png)
 ![](images/Screen%20Shot%202022-05-10%20at%207.29.11%20PM.png)
 ![](images/Screen%20Shot%202022-05-10%20at%207.31.16%20PM.png)
+
+#### Inject object into the bean
+![](/images/Screen%20Shot%202022-05-11%20at%208.37.29%20AM.png)
+##### Setter is used to inject the dependency
+![](/images/Screen%20Shot%202022-05-11%20at%208.43.57%20AM.png)
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
 
 
 

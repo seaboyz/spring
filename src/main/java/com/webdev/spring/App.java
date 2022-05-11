@@ -1,4 +1,4 @@
-package com.webdev.springrestapi;
+package com.webdev.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,8 +13,6 @@ public class App {
 		SpringApplication.run(App.class, args);
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-
-		// triangle
 
 		Triangle triangle = context.getBean("triangle", Triangle.class);
 

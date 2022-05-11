@@ -1,4 +1,4 @@
-package com.webdev.springrestapi;
+package com.webdev.spring;
 
 public class Employee {
     private String name;

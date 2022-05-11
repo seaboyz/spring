@@ -3,14 +3,27 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="triangle" class="com.webdev.springrestapi.Triangle">
-        <constructor-arg index="0" value="Equilateral" />
-        <constructor-arg index="1" value="20" />
+
+
+    <bean id="triangle" class="com.webdev.spring.Triangle">
+        <property name="pointA" ref="zeroPoint"/>
+        <property name="pointB" ref="point2"/>
+        <property name="pointC" ref="point3"/>
     </bean>
 
-    <bean id="employee" class="com.webdev.springrestapi.Employee">
-        <property name="name" value="john doe" />
-        <property name="email" value="john@example.com" />
+    <bean id="zeroPoint" class="com.webdev.spring.Point">
+        <property name="x" value="0" />
+        <property name="y" value="0" />
+    </bean>
+
+    <bean id="point2" class="com.webdev.spring.Point">
+        <property name="x" value="-20" />
+        <property name="y" value="-10" />
+    </bean>
+
+    <bean id="point3" class="com.webdev.spring.Point">
+        <property name="x" value="20" />
+        <property name="y" value="-10" />
     </bean>
 
 </beans>
