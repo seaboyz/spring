@@ -123,7 +123,9 @@ Spring bean factory is a singleton object.
   " we use constructor `String type ` dependency injection into the bean Triangle.
   ![](images/Screen%20Shot%202022-05-11%20at%205.33.44%20AM.png)
   ![](images/Screen%20Shot%202022-05-11%20at%205.33.31%20AM.png)
-
+  **contitionaly run program by setting diffent denpencies in the configuration file**
+  ![](/images/Screen%20Shot%202022-05-11%20at%205.46.14%20AM.png)
+  ![](images/Screen%20Shot%202022-05-11%20at%205.46.31%20AM.png)
 
 
   * get bean using `context.getBean("beanName")`(preferably)
