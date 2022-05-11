@@ -63,9 +63,8 @@ Spring bean factory is a singleton object.
 ##### Inner bean
 ![](images/Screen%20Shot%202022-05-11%20at%206.04.58%20PM.png)
 
-![]()
-![]()
-![]()
+##### Autowiring
+![](/images/Screen%20Shot%202022-05-11%20at%206.52.12%20PM.png)
 ![]()
 ![]()
 ![]()
