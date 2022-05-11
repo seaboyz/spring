@@ -107,10 +107,26 @@ Spring bean factory is a singleton object.
 ![](/images/Screen%20Shot%202022-05-10%20at%206.48.46%20PM.png)
 ![](/images/Screen%20Shot%202022-05-10%20at%206.49.03%20PM.png)
 
+#### java bean vs spring bean
+
 * with spring
+* #### context
   *  configuration file: spring.xml
 ![](/images/Screen%20Shot%202022-05-10%20at%207.29.11%20PM.png)
-  * get bean using `context.getBean("beanName")`
+* #### properties
+  **setter dependency injection**.
+  * we inject `String type = "Equilateral"` into the bean Triangle.
+  ![](images/Screen%20Shot%202022-05-11%20at%205.15.45%20AM.png)
+  * under the hood, spring user setter of the bean Triangle to set the type.
+  ![](images/Screen%20Shot%202022-05-11%20at%205.25.25%20AM.png)
+  **constructor dependency injection**
+  " we use constructor `String type ` dependency injection into the bean Triangle.
+  ![](images/Screen%20Shot%202022-05-11%20at%205.33.44%20AM.png)
+  ![](images/Screen%20Shot%202022-05-11%20at%205.33.31%20AM.png)
+
+
+
+  * get bean using `context.getBean("beanName")`(preferably)
 ![](/images/Screen%20Shot%202022-05-10%20at%207.31.16%20PM.png)
   * get bean using `BeanFactory.getBean("beanName")`
 ![](images/Screen%20Shot%202022-05-11%20at%204.13.09%20AM.png)

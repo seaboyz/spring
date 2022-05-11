@@ -3,12 +3,13 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="triangle" class="com.webdev.springrestapi.Triangle" />
+    <bean id="triangle" class="com.webdev.springrestapi.Triangle">
+        <constructor-arg  value="Equilateral" />
+    </bean>
 
     <bean id="employee" class="com.webdev.springrestapi.Employee">
-        <property name="name" value="John" />
+        <property name="name" value="john doe" />
         <property name="email" value="john@example.com" />
     </bean>
-    <alias name="employee" alias="developer" />
 
 </beans>
