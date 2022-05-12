@@ -70,7 +70,8 @@ Spring bean factory is a singleton object.
 ![](/images/Screen%20Shot%202022-05-11%20at%206.52.12%20PM.png)
 
 ### Spring Bean scope
-#### Singleton - By default spring beans are singletons.
+#### Singleton - By default spring beans are singletons(only in one spring container).
+  * you can run multiple spring containers in the JVM and each container has its own copy of the bean.
   * Singleton bean is created only once.
   * Singleton bean is shared between the requests.
   * Singleton bean is created when the application starts.
