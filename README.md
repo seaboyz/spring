@@ -64,7 +64,24 @@ Spring bean factory is a singleton object.
 ![](images/Screen%20Shot%202022-05-11%20at%206.04.58%20PM.png)
 
 ##### Autowiring
+* by type
+* by name
+* by constructor
 ![](/images/Screen%20Shot%202022-05-11%20at%206.52.12%20PM.png)
+
+### Spring Bean scope
+#### Singleton - By default spring beans are singletons.
+  * Singleton bean is created only once.
+  * Singleton bean is shared between the requests.
+  * Singleton bean is created when the application starts.
+#### Prototype - new bean created for each request.
+  * Prototype bean is created for each request or reference.
+  * Prototype bean is not shared between the requests.
+  * Prototype bean is created when the getBean method is called.
+#### Web-aware - bean is created for each request.
+  * Request - New bean is created for each servlet request.
+  * Session - New bean is created for each session.
+  * Global Session - New bean is created for each global HTTP session.
 ![]()
 ![]()
 ![]()
